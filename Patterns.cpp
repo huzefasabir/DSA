@@ -117,8 +117,38 @@ void P7(){
         cout<<endl;
     }
 };
+/*
+1111
+222
+33
+4
+*/
 void P8(){
-    
+    int n=4;
+    for(int i=1;i<=n;i++){
+        for(int j=i;j<=n;j++){
+            cout<<i<<" ";
+        }
+        cout<<endl;
+    }
+};
+/*
+1111
+ 222
+  33
+   4
+*/
+void P9(){
+    int n=4;
+    for(int i=0;i<n;i++){
+        for(int k=0;k<i;k++){
+            cout<<"  ";
+        }
+        for(int j=i;j<n;j++){
+            cout<<i+1<<" ";
+        }
+        cout<<endl;
+    }
 }
 int main(){
     //P1();
@@ -127,7 +157,8 @@ int main(){
     //P4();
     //P5();
     //P6();
-   // P7();
-    P8();
+    //P7();
+    //P8();
+    P9();
     return 0;
 }
