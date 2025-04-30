@@ -149,7 +149,75 @@ void P9(){
         }
         cout<<endl;
     }
-}
+};
+/*
+1
+23
+456
+78910*/
+void P10(){
+    int n=4;
+    int num=1;
+    for(int i=0;i<n;i++){
+        for(int j=0;j<=i;j++){
+            cout<<num<<" ";
+            num++;
+        }
+        cout<<endl;
+    }
+};
+/*
+1
+121
+12321
+1234321*/
+void P11(){
+    int n=4;
+    int num;
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n-i-1;j++){
+            cout<<" ";
+        }
+        for(int k=1;k<=i+1;k++){
+            cout<<k;
+        }
+        for(int m=i;m>0;m--){
+            cout<<m;
+        }
+        cout<<endl;
+    }
+};
+void P12(){
+    int n=4;
+    //TOP
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n-i-1;j++){
+            cout<<" ";
+        }
+        cout<<"*";
+        if(i!=0){
+        for(int k=0;k<2*i-1;k++){
+            cout<<" ";
+        }
+        cout<<"*";
+    }
+        cout<<endl;
+    }
+    //BOTTOM
+    for(int i=0;i<n-1;i++){
+        for(int j=0;j<=i;j++){
+            cout<<" ";
+        }
+        cout<<"*";
+        if(i!=n-2){
+            for(int k=0;k<2*(n-i)-5;k++){
+                cout<<" ";
+            }
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+};
 int main(){
     //P1();
     //P2();
@@ -159,6 +227,9 @@ int main(){
     //P6();
     //P7();
     //P8();
-    P9();
+    //P9();
+    //P10();
+    //P11();
+    P12();
     return 0;
 }
