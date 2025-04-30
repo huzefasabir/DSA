@@ -221,19 +221,19 @@ void P12(){
 void P13(){
     int n=4;
     // //TOP
-    // for(int i=0;i<n;i++){
-    //     for(int j=0;j<=i;j++){
-    //         cout<<"*";
-    //     }
-    //     for(int k=0;k<2*(n-i-1);k++){
-    //         cout<<" ";
-    //     }
-    //     for(int m=0;m<=i;m++){
-    //         cout<<"*";
-    //     }
+    for(int i=0;i<n;i++){
+        for(int j=0;j<=i;j++){
+            cout<<"*";
+        }
+        for(int k=0;k<2*(n-i-1);k++){
+            cout<<" ";
+        }
+        for(int m=0;m<=i;m++){
+            cout<<"*";
+        }
         
-    //     cout<<endl;
-    // }
+        cout<<endl;
+    }
     //BOTTOM
     for(int i=n-1;i<=0;i--){
         for(int j=1;j<=i+1;j++){
@@ -249,18 +249,18 @@ void P13(){
     }
 };
 int main(){
-    //P1();
-    //P2();
-    //P3();
-    //P4();
-    //P5();
-    //P6();
-    //P7();
-    //P8();
-    //P9();
-    //P10();
-    //P11();
-    //P12();
+    P1();
+    P2();
+    P3();
+    P4();
+    P5();
+    P6();
+    P7();
+    P8();
+    P9();
+    P10();
+    P11();
+    P12();
     P13();
     return 0;
 }
