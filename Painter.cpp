@@ -9,7 +9,7 @@ bool isValid(vector<int>&arr,int n,int m,int mid){
         }else{
             painter++;
             time=arr[i];
-        }    
+        }
     }
     if(painter>m){
             return false;
