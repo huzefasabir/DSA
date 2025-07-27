@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "sortedRec",
+      "request": "launch",
+      "mainClass": "sortedRec",
+      "projectName": "DSA_5a2911c1"
+    },
+    {
+      "type": "java",
+      "name": "fibRecursion",
+      "request": "launch",
+      "mainClass": "fibRecursion",
+      "projectName": "DSA_5a2911c1"
+    },
+    {
+      "type": "java",
       "name": "Search",
       "request": "launch",
       "mainClass": "Search",
